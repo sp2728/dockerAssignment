@@ -1,0 +1,44 @@
+    1  exit
+    2  docker container ls
+    3  exit
+    4  sudo docker container ls
+    5  docker rm container bb
+    6  sudo docker container bb
+    7  sudo docker rm container bb
+    8  sudo docker container ls
+    9  sudo docker rm container 0bcd3446d524
+   10  docker container rm --force bb
+   11  sudo docker container rm --force bb
+   12  usermod -aG sudo username
+   13  usermod -aG sudo vagrant
+   14  sude usermod -aG sudo username
+   15  sude usermod -aG sudo vagrant
+   16  sudo usermod -aG sudo vagrant
+   17  docker container ls
+   18  su - vagrant
+   19  exit
+   20  docker container ls
+   21  exit
+   22  docker container ls
+   23  su vagrant
+   24  sudo docker container ls
+   25  ls 
+   26  cd node-bulletin-board/
+   27  cd bulletin-board-app/
+   28  sudo usermod -a -G docker $USER
+   29  docker container ls
+   30  exit
+   31  docker container ls
+   32  docker image ls
+   33  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   34  docker container ls
+   35  docker container rm -f bb
+   36  exit
+   37  docker pull sp2728/bulletinboard:1.0
+   38  ls
+   39  exit
+   40  history
+   41  ls
+   42  cd node-bulletin-board/
+   43  cd bulletin-board-app/
+   44  history > history.txt
